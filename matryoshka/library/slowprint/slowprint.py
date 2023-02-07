@@ -3,7 +3,7 @@ import sys
 
 #::::: Slowprint :::::
 def slowprint(s):
-    """A Function To Print A Sentence Word For Word"""
+    """A Function To Print A Sentence Word For Word."""
     for c in s + "\n":
         sys.stdout.write(c)
         sys.stdout.flush()
