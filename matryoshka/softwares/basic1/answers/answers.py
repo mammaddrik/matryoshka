@@ -175,7 +175,7 @@ print(sum_thrice(3, 3, 3))""")
         if (option.upper() == "Y"):
             print("\nAnswer:\n")
             print(r"""def larger_string(str, n):
-    "is a repeater"
+    "Is a repeater"
     result = ""
     for i in range(n):
         result = result + str
