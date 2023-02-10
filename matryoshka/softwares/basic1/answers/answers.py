@@ -150,9 +150,47 @@ print(difference(14))""")
         if (option.upper() == "Y"):
             print("\nAnswer:\n")
             print(r"""def near_thousand(n):
+    "test whether a number is within 100 of 1000 or 2000."
     return ((abs(1000 -n) <= 100) or (abs(2000 -n) <= 100))
-    
 print(near_thousand(1000))
 print(near_thousand(900))
 print(near_thousand(800))
 print(near_thousand(2200))""")
+    
+    #::::: Answer 18 :::::
+    elif (sel == 18):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def sum_thrice(x, y, z):
+    "The sum of three numbers."
+    sum = x+y+z
+    if x == y == z:
+        sum = sum * 3
+    return sum
+print(sum_thrice(1, 2, 3))
+print(sum_thrice(3, 3, 3))""")
+
+    #::::: Answer 19 :::::
+    elif (sel == 19):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def larger_string(str, n):
+    "is a repeater"
+    result = ""
+    for i in range(n):
+        result = result + str
+    return result
+print(larger_string('abc',2))
+print(larger_string('.py',3))""")
+
+    #::::: Answer 20 :::::
+    elif (sel == 20):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def new_string(str):
+    "Function to check if there is or not."
+    if len(str) >= 2 and str[:2] == "Is":
+        return str
+    return "Is" + str
+print(new_string(" Array"))
+print(new_string("Is Empty"))""")
