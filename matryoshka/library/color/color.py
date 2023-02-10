@@ -2,7 +2,7 @@ import random
 
 #::::: Color :::::
 class Color:
-    """A Class To Specify Colors."""
+    "A Class To Specify Colors."
     End = "\033[1;37m"  #white  
     BRed = "\033[1;31m"
     BGreen = "\033[1;32m"
