@@ -241,11 +241,50 @@ Do you want to see the answer?"""+Color.End+"""
     #::::: Question 17 :::::
     elif (select == "17"):
         clearScr()
-        slowprint("""Write a Python program to test whether
-a number is within 100 of 1000 or 2000.""")
+        slowprint("""Write a Python program to test whether a number 
+is within 100 of 1000 or 2000.""")
         option = input(Color.BCyan+"""
 Do you want to see the answer?"""+Color.End+"""
 ┌───(matryoshka)─[~/answer]─[y/N]
 └─"""+color_banner[1]+"""$ """+Color.End)
         answer(17,option)
+        back()
+
+    #::::: Question 18 :::::
+    elif (select == "18"):
+        clearScr()
+        slowprint("""Write a Python program to calculate the sum of
+three given number, if the values are equal 
+then return thrice of their sum.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(18,option)
+        back()
+
+    #::::: Question 19 :::::
+    elif (select == "19"):
+        clearScr()
+        slowprint("""Write a Python program to get a string 
+which is n (non-negative integer) copies of a given str.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(19,option)
+        back()
+
+    #::::: Question 20 :::::
+    elif (select == "20"):
+        clearScr()
+        slowprint("""Write a Python program to get a new string from 
+a given string where 'Is' has been added to the front.
+if the give string already begins whith 'Is' 
+then return the string unchanged.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(20,option)
         back()
