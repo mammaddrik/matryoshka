@@ -157,7 +157,19 @@ Do you want to see the answer?"""+Color.End+"""
 └─"""+color_banner[1]+"""$ """+Color.End)
         answer(9,option)
         back()
-        
+
+    #::::: Question 10 :::::
+    elif (select == "10"):
+        clearScr()
+        slowprint("""Write a Python program that accepts an integer (n)
+and computes the value of n+nn+nnn.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(10,option)
+        back()
+     
     #::::: Question 11 :::::
     elif (select == "11"):
         clearScr()
