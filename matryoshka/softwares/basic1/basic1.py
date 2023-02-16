@@ -300,3 +300,69 @@ Do you want to see the answer?"""+Color.End+"""
 └─"""+color_banner[1]+"""$ """+Color.End)
         answer(20,option)
         back()
+        
+    #::::: Question 21 :::::
+    elif (select == "21"):
+        clearScr()
+        slowprint("""Write a Python program to find whether a given
+number (accept from the user) is even or odd,
+print out an appropriate message to the user.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(21,option)
+        back()
+
+    #::::: Question 22 :::::
+    elif (select == "22"):
+        clearScr()
+        output = ("\nlist = [1, 4, 6, 7, 4]")
+        print(output)
+        slowprint("""Write a Python program to count the number 4
+in a given list.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(22,option)
+        back()
+
+    #::::: Question 23 :::::
+    elif (select == "23"):
+        clearScr()
+        slowprint("""Write a Python program to get the n (non-negative integer)
+copies of the first 2 characters of a given string. Return
+the n copies of the whole string if the length is less then 2.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(23,option)
+        back()
+        
+    #::::: Question 24 :::::
+    elif (select == "24"):
+        clearScr()
+        slowprint("""Write a Python program to test whether a passed
+letter us a vowel or not.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(24,option)
+        back()
+
+    #::::: Question 25 :::::
+    elif (select == "25"):
+        clearScr()
+        slowprint("""Write a Python program to check whether a specified
+value is contained in a group of values.""")
+        output = ("\nlist = [1, 5, 8, 3]")
+        print(output)
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(25,option)
+        back()
