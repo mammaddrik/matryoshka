@@ -194,3 +194,66 @@ print(larger_string('.py',3))""")
     return "Is" + str
 print(new_string(" Array"))
 print(new_string("Is Empty"))""")
+    
+    #::::: Answer 21 :::::
+    elif (sel == 21):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""num = int(input("Enter a number: "))
+mod = num % 2
+if mod > 0:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")""")
+            
+    #::::: Answer 22 :::::
+    elif (sel == 22):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def list_count_4(nums):
+    count = 0
+    for num in nums:
+        if num == 4:
+            count = count + 1
+    return count
+print(list_count_4([1, 4, 6, 7, 4]))""")
+            
+    #::::: Answer 23 :::::
+    elif (sel == 23):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def substring_copy(str, n):
+    "A function to get n (a non-negative integer)"
+    flen = 2
+    if flen > len(str):
+        flen = len(str)
+    substr = str[:flen]
+    
+    result = ""
+    for i in range(n):
+        result = result + substr
+    return result
+print(substring_copy("abcdef", 2))""")
+            
+    #::::: Answer 24 :::::
+    elif (sel == 24):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def is_vowel(char):
+    "A function to check vowels"
+    all_vowels = "aeiou"
+    return char in all_vowels
+print(is_vowel("c"))""")
+     
+    #::::: Answer 25 :::::
+    elif (sel == 25):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def is_group_member(group_data, n):
+    "A function to check if number exists."
+    for value in group_data:
+        if n == value:
+            return True
+    return False
+print(is_group_member([1, 5, 8, 3], 3))
+    """)
