@@ -366,3 +366,70 @@ Do you want to see the answer?"""+Color.End+"""
 └─"""+color_banner[1]+"""$ """+Color.End)
         answer(25,option)
         back()
+
+    #::::: Question 26 :::::
+    elif (select == "26"):
+        clearScr()
+        slowprint("""Write a Python program to create a histogram
+from a given list of integers.""")
+        output = ("\nlist = [2, 3, 6, 5]")
+        print(output)
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(26,option)
+        back()
+        
+    #::::: Question 27 :::::
+    elif (select == "27"):
+        clearScr()
+        slowprint("""Write a Python program to concatenate all elements
+in a list into a string and return it.""")
+        output = ("\nlist = [1, 5, 12, 2]")
+        print(output)
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(27,option)
+        back()
+
+    #::::: Question 28 :::::
+    elif (select == "28"):
+        clearScr()
+        slowprint("""Write a Python program to print out a set
+containing all the colors from color_list_1 
+which are not present in color_list_2.""")
+        output = ('\ncolor_list_1 = ["White", "Black", "Red"]\ncolor_list_2 = ["Red", "Green"]')
+        print(output)
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(28,option)
+        back()
+        
+    #::::: Question 29 :::::
+    elif (select == "29"):
+        clearScr()
+        slowprint("""Write a Python program that will accept the base 
+and height of a triangle and compute the area.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(29,option)
+        back()
+
+    #::::: Question 30 :::::
+    elif (select == "30"):
+        clearScr()
+        slowprint("""Write a Python program to compute the greatest
+common divisor (GCD) of two positive integers.""")
+        option = input(Color.BCyan+"""
+Do you want to see the answer?"""+Color.End+"""
+┌───(matryoshka)─[~/answer]─[y/N]
+└─"""+color_banner[1]+"""$ """+Color.End)
+        answer(30,option)
+        back()
