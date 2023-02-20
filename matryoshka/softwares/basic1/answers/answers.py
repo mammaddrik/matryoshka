@@ -255,5 +255,64 @@ print(is_vowel("c"))""")
         if n == value:
             return True
     return False
-print(is_group_member([1, 5, 8, 3], 3))
-    """)
+print(is_group_member([1, 5, 8, 3], 3))""")
+
+    #::::: Answer 26 :::::
+    elif (sel == 26):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def histogram(items):
+    "A function to make a histogram."
+    for n in items:
+        output = ""
+        times = n
+        while(times > 0):
+            output += "*"
+            times = times - 1
+        print(output)
+histogram([2, 3, 6, 5])""")
+
+    #::::: Answer 27 :::::
+    elif (sel == 27):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def concatenate_list_data(list):
+    "A function for concatenation."
+    result = ""
+    for element in list:
+        result += str(element)
+    return result
+print(concatenate_list_data([1, 5 ,12 ,2]))""")
+
+    #::::: Answer 28 :::::
+    elif (sel == 28):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+print(color_list_1.difference(color_list_2))""")
+            
+    #::::: Answer 29 :::::
+    elif (sel == 29):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""b = int(input("Input the base: "))
+h = int(input("Input the height: "))
+area = b*h/2
+print(f"area = {area}")""")
+            
+    #::::: Answer 30 :::::
+    elif (sel == 30):
+        if (option.upper() == "Y"):
+            print("\nAnswer:\n")
+            print(r"""def gcd(x, y):
+    "The function to calculate the greatest common divisor."
+    gcd = 1
+    if (x % y == 0):
+        return y
+    for k in range(int(y / 2), 0 , -1):
+        if (x % k == 0 and y % k == 0):
+            gcd = k
+            break
+    return gcd
+print(gcd(12, 17))""")
